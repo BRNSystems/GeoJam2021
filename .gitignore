@@ -44,6 +44,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 .vscode
+Library
 
 # Crashlytics generated file
 crashlytics-build.properties
