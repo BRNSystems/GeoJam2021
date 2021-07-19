@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-    public Rigidbody2D rb;
-    public CircleCollider2D circ;
-    public LayerMask LVLMask;
-    public float walking_speed;
-    public float jump_power;
-    // Start is called before the first frame update
+    public CharacterController2D controller;
+    public float runspeed = 40f;
+    float horizonatalmove = 0f;
+    bool jumping = false;
+    bool crouching = false;
     void Start()
     {
         
@@ -18,17 +17,14 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float speed = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
-        Vector2 movement = new Vector2(0, 0);
-        movement.x = walking_speed * speed;
+        horizonatalmove = Input.GetAxisRaw("Horizontal") * runspeed;
+        jumping = Input.GetButton("Jump") || Input.GetAxisRaw("Vertical") > 0;
+        crouching = Input.GetButton("Crouch") || Input.GetAxisRaw("Vertical") < 0;
         
-        if (Input.GetButtonDown("Jump") || Input.GetAxisRaw("Vertical") > 0)
-        {
-            if (circ.IsTouchingLayers(LVLMask)){
-                movement.x = movement.x / 10;
-                movement.y = jump_power;
-            }
-        }
-        rb.AddRelativeForce(movement);
+    }
+
+    void FixedUpdate(){
+        controller.Move(horizonatalmove * Time.fixedDeltaTime, crouching, jumping);
+
     }
 }
