@@ -539,4 +539,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   walking_speed: 80000
-  jump_power: 40000
+  jump_power: 10000
