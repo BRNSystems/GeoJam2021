@@ -7,12 +7,12 @@ public class PlayerControls : MonoBehaviour
     public Animator animator;
     public PhysicsMaterial2D top;
     public Rigidbody2D rigidbody;
+    public SpriteRenderer sprite;
     public PhysicsMaterial2D bottom;
     public CharacterController2D controller;
     public float runspeed = 40f;
     float horizonatalaxis = 0f;
     bool jumping = false;
-    bool crouching = false;
     bool switchy = false;
 
     void Start()
@@ -26,7 +26,6 @@ public class PlayerControls : MonoBehaviour
         
         horizonatalaxis = Input.GetAxisRaw("Horizontal");
         jumping = Input.GetButton("Jump") || Input.GetAxisRaw("Vertical") > 0;
-        crouching = Input.GetButton("Crouch") || Input.GetAxisRaw("Vertical") < 0;
         animator.SetFloat("Horizontal_speed", horizonatalaxis);
 
         if(Input.GetButtonDown("Switch")) {
@@ -34,21 +33,17 @@ public class PlayerControls : MonoBehaviour
         }
 
         if (switchy){
-            transform.rotation = new Quaternion(0f, 0f, 180f, 0f);
+            sprite.flipY = true;
             rigidbody.sharedMaterial = top;
         }
         else {
-            transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+            sprite.flipY = false;
             rigidbody.sharedMaterial = bottom;
         }
         
     }
-
-    public void crouchingx(bool stat){
-        //animator.SetBool("Crouching", stat);
-    }
     void FixedUpdate(){
-        controller.Move(horizonatalaxis  * runspeed * Time.fixedDeltaTime, false, jumping);
+        controller.Move(horizonatalaxis  * runspeed * Time.fixedDeltaTime, jumping);
 
     }
 }
