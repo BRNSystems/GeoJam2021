@@ -10,6 +10,9 @@ public class Death : MonoBehaviour
     }
     private void OnCollisionEnter2D (Collision2D collisionInfo)
     {
-        collisionInfo.collider.transform.position = Vector3.zero;
+        if (collisionInfo.collider.name == "Player") {
+            collisionInfo.collider.transform.position = Vector3.zero;
+            collisionInfo.collider.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        }
     }
 }
