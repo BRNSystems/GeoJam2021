@@ -28,7 +28,11 @@ public class PlayerControls : MonoBehaviour
         jumping = Input.GetButton("Jump") || Input.GetAxisRaw("Vertical") > 0;
         crouching = Input.GetButton("Crouch") || Input.GetAxisRaw("Vertical") < 0;
         animator.SetFloat("Horizontal_speed", horizonatalaxis);
-        switchy = Input.GetButton("Switch");
+
+        if(Input.GetButtonDown("Switch")) {
+            switchy = !switchy;
+        }
+
         if (switchy){
             transform.rotation = new Quaternion(0f, 0f, 180f, 0f);
             rigidbody.sharedMaterial = top;
