@@ -4,21 +4,14 @@ using UnityEngine;
 
 
 public class Death : MonoBehaviour
-
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+
+    void Start() {
+        Debug.Log("hello");
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D (Collision2D collisionInfo)
     {
-
-    }
-
-     public void OnCollisionEnter(){
-     Debug.Log("B");
+        Debug.Log(collisionInfo.collider.transform);
+        collisionInfo.collider.transform.position = Vector3.zero;
     }
 }
