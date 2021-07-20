@@ -12,6 +12,7 @@ public class PlayerControls : MonoBehaviour
     public CharacterController2D controller;
     public float runspeed = 40f;
     float horizonatalaxis = 0f;
+
     bool jumping = false;
     bool switchy = false;
 
@@ -30,16 +31,19 @@ public class PlayerControls : MonoBehaviour
 
         if(Input.GetButtonDown("Switch")) {
             switchy = !switchy;
+            if (switchy){
+                sprite.flipY = true;
+                rigidbody.sharedMaterial = top;
+                controller.m_JumpForce = controller.m_JumpForce * 1.2f;
+            }
+            else {
+                sprite.flipY = false;
+                rigidbody.sharedMaterial = bottom;
+                controller.m_JumpForce = controller.m_JumpForce * 0.8f;
+            }
         }
 
-        if (switchy){
-            sprite.flipY = true;
-            rigidbody.sharedMaterial = top;
-        }
-        else {
-            sprite.flipY = false;
-            rigidbody.sharedMaterial = bottom;
-        }
+
         
     }
     void FixedUpdate(){
