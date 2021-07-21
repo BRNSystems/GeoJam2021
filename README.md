@@ -17,13 +17,13 @@ Impact - Added into game by [Tucan444](https://github.com/Tucan444/)
 
 [CameraTracking](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/CameraTracking.cs) - [@BRNSystems](https://github.com/BRNSystems/)
 
-[Character Controller 2D](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/CharacterController2D.cs) - (@Brackeys)[https://github.com/Brackeys/] - [Original](https://github.com/Brackeys/2D-Character-Controller/blob/master/CharacterController2D.cs) and [@BRNSystems](https://github.com/BRNSystems/)
+[Character Controller 2D](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/CharacterController2D.cs) -  [@Brackeys](https://github.com/Brackeys/) - [Original](https://github.com/Brackeys/2D-Character-Controller/blob/master/CharacterController2D.cs) and [@BRNSystems](https://github.com/BRNSystems/)
 
 [Death](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/Death.cs) - [Tucan444](https://github.com/Tucan444/) and [@BRNSystems](https://github.com/BRNSystems/)
 
 [CheckPoint](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/Checkpoint.cs) - [@BRNSystems](https://github.com/BRNSystems/)
 
-[PlayerControls](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/PlayerControls.cs) - [@BRNSystems](https://github.com/BRNSystems/) and @Tucan
+[PlayerControls](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/PlayerControls.cs) - [@BRNSystems](https://github.com/BRNSystems/) and [Tucan444](https://github.com/Tucan444/)
 
 [SpawnStorage](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/SpawnStorage.cs) - [@BRNSystems](https://github.com/BRNSystems/)
 
@@ -38,9 +38,9 @@ Impact - Added into game by [Tucan444](https://github.com/Tucan444/)
 
 [Sound effects](https://github.com/BRNSystems/GeoJam2021/tree/master/SFX/) - [@BRNSystems](https://github.com/BRNSystems/)([BFXR](https://www.bfxr.net/))
 
-[Music](https://github.com/BRNSystems/GeoJam2021/tree/master/Music/]
+[Music](https://github.com/BRNSystems/GeoJam2021/tree/master/Music/)
 
-[@BRNSystems](https://github.com/BRNSystems/)([FL Studio trial](https://www.image-line.com/fl-studio/))
+[@BRNSystems](https://github.com/BRNSystems/)([FL Studio](https://www.image-line.com/fl-studio/)) trial
 
 ### [Scenes](https://github.com/BRNSystems/GeoJam2021/tree/master/Scenes/):
 
