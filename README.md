@@ -7,7 +7,7 @@ Hello this will be my entry to the [GeoJam2021](https://itch.io/jam/geojam-2021)
     -[Sprites](https://github.com/BRNSystems/GeoJam2021/tree/master/Sprites/):
         -[@BRNSystems](https://github.com/BRNSystems/)(Self compiled [Aseprite](https://www.aseprite.org/))
 
-    -(Fonts)[https://github.com/BRNSystems/GeoJam2021/tree/master/Fonts/]:
+    -[Fonts](https://github.com/BRNSystems/GeoJam2021/tree/master/Fonts/):
         -Impact -Added into game by [Tucan444](https://github.com/Tucan444/)
 
     -[Scripts](https://github.com/BRNSystems/GeoJam2021/tree/master/Assets/Scripts/):
