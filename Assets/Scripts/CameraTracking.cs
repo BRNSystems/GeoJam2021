@@ -16,6 +16,7 @@ public class CameraTracking : MonoBehaviour
     {
         Vector3 playpos = player.transform.position;
         playpos.z = playpos.z - 10;
+        playpos.y = playpos.y + 3;
         transform.position = playpos;
     }
 }

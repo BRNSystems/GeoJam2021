@@ -12,8 +12,6 @@ public class PlayerControls : MonoBehaviour
     public SpriteRenderer sprite;
     public PhysicsMaterial2D bottom;
     public CharacterController2D controller;
-    public RigidbodyConstraints2D topx;
-    public RigidbodyConstraints2D bottomx;
     public AudioSource sfx;
     public float runspeed = 40f;
     float horizonatalaxis = 0f;
@@ -29,28 +27,34 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        horizonatalaxis = Input.GetAxisRaw("Horizontal");
-        jumping = Input.GetButton("Jump") || Input.GetAxisRaw("Vertical") > 0;
-        animator.SetFloat("Horizontal_speed", horizonatalaxis);
-
         if(Input.GetButtonDown("Switch")) {
             switchy = !switchy;
             if (switchy){
                 sprite.flipY = true;
-                rb.constraints = topx;
                 rb.sharedMaterial = top;
-                controller.m_JumpForce = controller.m_JumpForce * 1.2f;
+                controller.m_JumpForce = controller.m_JumpForce * 1.6f;
             }
             else {
                 sprite.flipY = false;
-                rb.constraints = bottomx;
                 rb.sharedMaterial = bottom;
-                controller.m_JumpForce = controller.m_JumpForce * 0.8f;
+                controller.m_JumpForce = controller.m_JumpForce / 1.6f;
             }
             sfx.clip = RotateSFX;
             sfx.Play();
         }
+        Vector3 playpos = transform.position;
+        playpos.z = 0f;
+        transform.position = playpos;
+        if (!switchy){
+        horizonatalaxis = Input.GetAxisRaw("Horizontal");
+        }
+        else{
+            horizonatalaxis = 0;
+        }
+        jumping = Input.GetButton("Jump") || Input.GetAxisRaw("Vertical") > 0;
+        animator.SetFloat("Horizontal_speed", horizonatalaxis);
+
+
 
 
         
