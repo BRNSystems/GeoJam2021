@@ -12,6 +12,8 @@ public class PlayerControls : MonoBehaviour
     public SpriteRenderer sprite;
     public PhysicsMaterial2D bottom;
     public CharacterController2D controller;
+    public RigidbodyConstraints2D topx;
+    public RigidbodyConstraints2D bottomx;
     public AudioSource sfx;
     public float runspeed = 40f;
     float horizonatalaxis = 0f;
@@ -36,11 +38,13 @@ public class PlayerControls : MonoBehaviour
             switchy = !switchy;
             if (switchy){
                 sprite.flipY = true;
+                rb.constraints = topx;
                 rb.sharedMaterial = top;
                 controller.m_JumpForce = controller.m_JumpForce * 1.2f;
             }
             else {
                 sprite.flipY = false;
+                rb.constraints = bottomx;
                 rb.sharedMaterial = bottom;
                 controller.m_JumpForce = controller.m_JumpForce * 0.8f;
             }
