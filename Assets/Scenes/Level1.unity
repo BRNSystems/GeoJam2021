@@ -399,7 +399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkpoint: {fileID: 8300000, guid: e7303a9251559ed46b55db08ba72d28d, type: 3}
   spawnstor: {fileID: 806054524}
-  sfx: {fileID: 0}
+  sfx: {fileID: 1823422550}
   Green: {fileID: 21300000, guid: 66c7cb67a3620364a9ae36b0f6ff2934, type: 3}
   circ: {fileID: 410384582}
   sprite: {fileID: 410384583}
