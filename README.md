@@ -30,6 +30,10 @@ Impact - Added into game by [@Tucan444](https://github.com/Tucan444/)
 
 [Target](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/Target.cs) - [@BRNSystems](https://github.com/BRNSystems/)
 
+[MovingPlatform](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/MovingPlatform.cs) - [@Tucan444](https://github.com/Tucan444/)
+
+[Rotation](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/Rotation.cs) - [@Tucan444](https://github.com/Tucan444/)
+
 
 ### [Physic Materials](https://github.com/BRNSystems/GeoJam2021/tree/master/Physic_Materials/):
 
