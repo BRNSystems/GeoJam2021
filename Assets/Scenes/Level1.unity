@@ -6479,7 +6479,7 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 100
+  m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 200
   m_PointLightDistance: 3
   m_PointLightQuality: 1
@@ -6608,7 +6608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8300000, guid: a2756462c48e9164db32d5b1cd8d4d56, type: 3}
-  sfx: {fileID: 0}
+  sfx: {fileID: 1823422550}
   circ: {fileID: 1391785255}
   nextScene: Finish
 --- !u!212 &1391785258
