@@ -27090,7 +27090,7 @@ MonoBehaviour:
   target: {fileID: 8300000, guid: a2756462c48e9164db32d5b1cd8d4d56, type: 3}
   sfx: {fileID: 1823422550}
   circ: {fileID: 1391785255}
-  nextScene: Finish
+  nextScene: Level2
 --- !u!212 &1391785258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32777,7 +32777,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.30544686, b: 0.30544686, a: 0.23529412}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
