@@ -6,10 +6,13 @@ public class PlayerControls : MonoBehaviour
 {
     public Animator animator;
     public PhysicsMaterial2D top;
-    public Rigidbody2D rigidbody;
+    public Rigidbody2D rb;
+    public AudioClip RotateSFX;
+
     public SpriteRenderer sprite;
     public PhysicsMaterial2D bottom;
     public CharacterController2D controller;
+    public AudioSource sfx;
     public float runspeed = 40f;
     float horizonatalaxis = 0f;
 
@@ -33,14 +36,16 @@ public class PlayerControls : MonoBehaviour
             switchy = !switchy;
             if (switchy){
                 sprite.flipY = true;
-                rigidbody.sharedMaterial = top;
+                rb.sharedMaterial = top;
                 controller.m_JumpForce = controller.m_JumpForce * 1.2f;
             }
             else {
                 sprite.flipY = false;
-                rigidbody.sharedMaterial = bottom;
+                rb.sharedMaterial = bottom;
                 controller.m_JumpForce = controller.m_JumpForce * 0.8f;
             }
+            sfx.clip = RotateSFX;
+            sfx.Play();
         }
 
 
