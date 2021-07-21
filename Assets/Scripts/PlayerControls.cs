@@ -9,6 +9,9 @@ public class PlayerControls : MonoBehaviour
     public Rigidbody2D rb;
     public AudioClip RotateSFX;
 
+    public AudioClip damage;
+    public SpawnStorage spawnstor;
+
     public SpriteRenderer sprite;
     public PhysicsMaterial2D bottom;
     public CharacterController2D controller;
@@ -40,6 +43,12 @@ public class PlayerControls : MonoBehaviour
                 controller.m_JumpForce = controller.m_JumpForce / 1.6f;
             }
             sfx.clip = RotateSFX;
+            sfx.Play();
+        }
+        if(Input.GetButtonDown("Reset")) {
+            transform.position = spawnstor.spawnpoint;
+            transform.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            sfx.clip = damage;
             sfx.Play();
         }
         Vector3 playpos = transform.position;

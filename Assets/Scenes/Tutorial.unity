@@ -292,6 +292,8 @@ MonoBehaviour:
   top: {fileID: 6200000, guid: 1431532fb1c75214a9a8c9b1199fe80b, type: 2}
   rb: {fileID: 4766646}
   RotateSFX: {fileID: 8300000, guid: 9308767361e69644fb449e62c7403639, type: 3}
+  damage: {fileID: 8300000, guid: 48964eead8994c2448e0079ace97b563, type: 3}
+  spawnstor: {fileID: 1523500533}
   sprite: {fileID: 4766650}
   bottom: {fileID: 6200000, guid: 2c0538ecede9d3b43867ca45f72ba04b, type: 2}
   controller: {fileID: 4766648}

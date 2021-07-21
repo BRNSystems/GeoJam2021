@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 44549256}
   - component: {fileID: 44549255}
   - component: {fileID: 44549254}
-  - component: {fileID: 44549257}
   m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
@@ -245,21 +244,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &44549257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44549252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20c0ecf95ac68c343bdf7b8295ff699c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 0
-  height: -1.4
-  speed: 1.76
 --- !u!1 &48681354
 GameObject:
   m_ObjectHideFlags: 0
@@ -6657,6 +6641,8 @@ MonoBehaviour:
   top: {fileID: 6200000, guid: 1431532fb1c75214a9a8c9b1199fe80b, type: 2}
   rb: {fileID: 685738184}
   RotateSFX: {fileID: 8300000, guid: 9308767361e69644fb449e62c7403639, type: 3}
+  damage: {fileID: 8300000, guid: 48964eead8994c2448e0079ace97b563, type: 3}
+  spawnstor: {fileID: 806054524}
   sprite: {fileID: 685738188}
   bottom: {fileID: 6200000, guid: 2c0538ecede9d3b43867ca45f72ba04b, type: 2}
   controller: {fileID: 685738186}
@@ -17160,7 +17146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137646167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.8, z: 0}
+  m_LocalPosition: {x: 0, y: -1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 685738189}
@@ -32259,7 +32245,6 @@ GameObject:
   - component: {fileID: 1657599957}
   - component: {fileID: 1657599956}
   - component: {fileID: 1657599955}
-  - component: {fileID: 1657599958}
   m_Layer: 3
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -32369,21 +32354,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1657599958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657599953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20c0ecf95ac68c343bdf7b8295ff699c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 0
-  height: -1.36
-  speed: 1.2
 --- !u!1 &1748848846
 GameObject:
   m_ObjectHideFlags: 0
