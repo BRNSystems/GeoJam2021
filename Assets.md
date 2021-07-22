@@ -53,9 +53,7 @@ Impact - Added into game by [@Tucan444](https://github.com/Tucan444/)
 [Sound effects](https://github.com/BRNSystems/GeoJam2021/tree/master/SFX/) - [@BRNSystems](https://github.com/BRNSystems/)([BFXR](https://www.bfxr.net/))
 
 
-[Music](https://github.com/BRNSystems/GeoJam2021/tree/master/Music/)
-
-[@BRNSystems](https://github.com/BRNSystems/)([FL Studio](https://www.image-line.com/fl-studio/)) trial
+[Music](https://github.com/BRNSystems/GeoJam2021/tree/master/Music/) - [@BRNSystems](https://github.com/BRNSystems/)([FL Studio](https://www.image-line.com/fl-studio/)) trial
 
 
 ## [Scenes](https://github.com/BRNSystems/GeoJam2021/tree/master/Scenes/):
