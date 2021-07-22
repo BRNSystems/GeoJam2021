@@ -16,7 +16,7 @@ Impact - Added into game by [@Tucan444](https://github.com/Tucan444/)
 
 ## [Scripts](https://github.com/BRNSystems/GeoJam2021/tree/master/Assets/Scripts/):
 
-[CameraTracking](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/CameraTracking.cs) - [@BRNSystems](https://github.com/BRNSystems/)
+[CameraTracking](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/CameraTracking.cs) - [@BRNSystems](https://github.com/BRNSystems/) and [@Tucan444](https://github.com/Tucan444/)
 
 [Death](https://github.com/BRNSystems/GeoJam2021/blob/master/Assets/Scripts/Death.cs) - [@Tucan444](https://github.com/Tucan444/) and [@BRNSystems](https://github.com/BRNSystems/)
 
