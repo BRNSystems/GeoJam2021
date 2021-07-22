@@ -37880,7 +37880,7 @@ MonoBehaviour:
   target: {fileID: 8300000, guid: a2756462c48e9164db32d5b1cd8d4d56, type: 3}
   sfx: {fileID: 1823422550}
   circ: {fileID: 1750757247}
-  nextScene: Level6
+  nextScene: Finish
 --- !u!212 &1750757250
 SpriteRenderer:
   m_ObjectHideFlags: 0
