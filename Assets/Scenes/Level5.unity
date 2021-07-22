@@ -11614,7 +11614,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4ea7de9d45f4d574180b9856b9b896c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7343d1b1fc5ad704f8743b4f0a38508b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -42253,7 +42253,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4867e3ea7a06ec3428d32261379af8a5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e86f6eab5cb23c3418bab08ac8ad046b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -42680,7 +42680,7 @@ MonoBehaviour:
   target: {fileID: 8300000, guid: a2756462c48e9164db32d5b1cd8d4d56, type: 3}
   sfx: {fileID: 1823422550}
   circ: {fileID: 1750757247}
-  nextScene: Level5
+  nextScene: Level6
 --- !u!212 &1750757250
 SpriteRenderer:
   m_ObjectHideFlags: 0
