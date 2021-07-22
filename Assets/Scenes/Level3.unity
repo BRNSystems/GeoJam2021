@@ -1115,18 +1115,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8057fdb619b42d94390909e7bc867d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 20
   SFX: {fileID: 1823422550}
   JumpSFX: {fileID: 8300000, guid: 437cbeaabc4a81e4e917fb190ecc096c, type: 3}
-  m_MovementSmoothing: 0.05
-  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 8
   m_GroundCheck: {fileID: 1137646168}
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &685738187
 MonoBehaviour:
   m_ObjectHideFlags: 0

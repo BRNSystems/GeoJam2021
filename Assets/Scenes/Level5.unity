@@ -331,7 +331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219660005}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7, y: 136.7, z: 0}
+  m_LocalPosition: {x: -4.2, y: 116.399994, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 343801489}
@@ -5840,7 +5840,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288585695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -43, y: 143.1, z: 0.70835644}
+  m_LocalPosition: {x: -27.199997, y: 122.8, z: 0.70835644}
   m_LocalScale: {x: 30, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 343801489}
@@ -6283,7 +6283,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 14
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6639,18 +6639,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8057fdb619b42d94390909e7bc867d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 1000
+  m_JumpForce: 20
   SFX: {fileID: 1823422550}
   JumpSFX: {fileID: 8300000, guid: 437cbeaabc4a81e4e917fb190ecc096c, type: 3}
-  m_MovementSmoothing: 0.05
-  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 8
   m_GroundCheck: {fileID: 1137646168}
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &685738187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6768,7 +6763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737155566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 176, y: 14.4, z: 92.19983}
+  m_LocalPosition: {x: 143.4, y: 14.4, z: 92.19983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 998253299}
@@ -6814,12 +6809,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7343d1b1fc5ad704f8743b4f0a38508b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ea7de9d45f4d574180b9856b9b896c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 320, y: 400}
+  m_Size: {x: 400, y: 500}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -17067,7 +17062,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999192582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.87, y: 140.36, z: 3}
+  m_LocalPosition: {x: 18.87, y: 120.06, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 964927014}
@@ -17206,7 +17201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050230245}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.6, y: 135.5, z: 0}
+  m_LocalPosition: {x: 18.6, y: 115.2, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 343801489}
@@ -22475,7 +22470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232501489}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179, y: -23, z: 2.1998286}
+  m_LocalPosition: {x: 156, y: 45, z: 2.1998286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 998253299}
@@ -37453,7 +37448,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e86f6eab5cb23c3418bab08ac8ad046b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4867e3ea7a06ec3428d32261379af8a5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -37696,7 +37691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744140755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.7, y: 147.80002, z: 3}
+  m_LocalPosition: {x: -19.899998, y: 127.500015, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 964927014}
@@ -37880,7 +37875,7 @@ MonoBehaviour:
   target: {fileID: 8300000, guid: a2756462c48e9164db32d5b1cd8d4d56, type: 3}
   sfx: {fileID: 1823422550}
   circ: {fileID: 1750757247}
-  nextScene: Level6
+  nextScene: Level5
 --- !u!212 &1750757250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37940,7 +37935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750757246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -59.4, y: 138.6, z: 0}
+  m_LocalPosition: {x: -43.6, y: 109.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 883602336}
