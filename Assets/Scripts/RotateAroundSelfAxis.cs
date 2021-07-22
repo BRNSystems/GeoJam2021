@@ -21,15 +21,13 @@ public class RotateAroundSelfAxis : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rotation = transform.rotation;
-
+        
         if(right_rotation) {
-            rotation[2] -= speed * Time.deltaTime;
+            transform.localRotation *= Quaternion.AngleAxis(speed * Time.deltaTime, new Vector3(0f, 0f, -1f));
         } else {
-            rotation[2] += speed * Time.deltaTime;
+           transform.localRotation *= Quaternion.AngleAxis(speed * Time.deltaTime, new Vector3(0f, 0f, 1f));
         }
-        Debug.Log(speed * Time.deltaTime);
-
-        transform.rotation = rotation;
+        
+        Debug.Log(rotation[2]);
     }
 }
