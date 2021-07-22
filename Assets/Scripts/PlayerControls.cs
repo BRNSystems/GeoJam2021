@@ -35,12 +35,12 @@ public class PlayerControls : MonoBehaviour
             if (switchy){
                 sprite.flipY = true;
                 rb.sharedMaterial = top;
-                controller.m_JumpForce = controller.m_JumpForce * 1.6f;
+                controller.m_JumpForce = controller.m_JumpForce * 2f;
             }
             else {
                 sprite.flipY = false;
                 rb.sharedMaterial = bottom;
-                controller.m_JumpForce = controller.m_JumpForce / 1.6f;
+                controller.m_JumpForce = controller.m_JumpForce / 2f;
             }
             sfx.clip = RotateSFX;
             sfx.Play();
