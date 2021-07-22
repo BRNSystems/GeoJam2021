@@ -7215,7 +7215,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Let 's test out your skills before the grand finale...
+  m_text: Let 's test out your skills...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ef325a480290fa14fba489996636a572, type: 2}
   m_sharedMaterial: {fileID: -8345311776861960751, guid: ef325a480290fa14fba489996636a572, type: 2}
