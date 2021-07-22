@@ -188,9 +188,10 @@ MonoBehaviour:
     was my first game in Unity, so it was a bit crappy.
 
     I also want to thank
-    @Tucan444 for helping me out.
+    @Tucan444 and his very helpful parrot Kio for helping me out.
 
-    I hope you enjoyed it.
+    I hope you
+    enjoyed it.
 
     BRN Systems'
   m_isRightToLeft: 0
@@ -255,7 +256,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -7.812948, y: 0, z: -1.1841106, w: 1.2549968}
+  m_margin: {x: -7.2570496, y: 0, z: -1.1841106, w: 1.2549968}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -399,6 +400,7 @@ GameObject:
   - component: {fileID: 698687518}
   - component: {fileID: 698687517}
   - component: {fileID: 698687515}
+  - component: {fileID: 698687516}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -438,6 +440,18 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &698687516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698687514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf471439c551fd459075afc8510ea03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!81 &698687517
 AudioListener:
   m_ObjectHideFlags: 0
@@ -473,7 +487,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

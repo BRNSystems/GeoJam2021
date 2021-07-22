@@ -6,7 +6,8 @@ public class MenuZoom : MonoBehaviour
 {
     public Camera cam;
     public GameObject objects;
-    bool firstrun = true;
+    bool flag1 = true;
+    bool flag2 = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,14 +17,22 @@ public class MenuZoom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (firstrun){
-            firstrun = false;
-            while(cam.fieldOfView > 3f){
-                cam.fieldOfView -= 0.001f;
+        if (flag1){
+            if(cam.orthographicSize > 1f){
+                cam.orthographicSize -= 0.1f;
             }
-            objects.SetActive(true);
-            while(cam.fieldOfView < 5f){
-                cam.fieldOfView += 0.001f;
+            else{
+                flag1 = false;
+                flag2 = true;
+                objects.SetActive(true);
+            }
+        }
+        if(flag2){
+            if(cam.orthographicSize < 5f){
+                cam.orthographicSize += 0.06f;
+            }
+            else{
+                flag2 = false;
             }
         }
     }
