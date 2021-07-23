@@ -226,6 +226,7 @@ MonoBehaviour:
     m_Bits: 32
   sfx: {fileID: 1499575167}
   mouse: {fileID: 1949375702}
+  sr: {fileID: 231727548}
 --- !u!50 &231727551
 Rigidbody2D:
   serializedVersion: 4
