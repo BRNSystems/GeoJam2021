@@ -305,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 20
   height: 0
-  speed: 4
+  speed: 8
 --- !u!1 &252954236
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,8 +742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   width: 0
-  height: 20
-  speed: 4
+  height: 15
+  speed: 6
 --- !u!50 &614575552
 Rigidbody2D:
   serializedVersion: 4

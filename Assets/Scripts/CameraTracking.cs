@@ -29,9 +29,7 @@ public class CameraTracking : MonoBehaviour
 
         difference[0] = player_pos[0] - camera_pos[0];
         difference[1] = player_pos[1] - camera_pos[1];
-
         float smoothing_ = smoothing / Time.deltaTime;
-
         camera_pos[0] += difference[0] / smoothing_;
         camera_pos[1] += difference[1] / smoothing_;
 

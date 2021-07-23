@@ -7,7 +7,7 @@ public class MovingPlatform : MonoBehaviour
 
     public float width;
     public float height;
-    [Range(0.1f, 8)] [SerializeField] private float speed = 1;
+    [Range(0.1f, 80 )] [SerializeField] private float speed = 1;
 
     private bool movingLeft = false;
     private bool movingUp = false;

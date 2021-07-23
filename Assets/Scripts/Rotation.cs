@@ -10,7 +10,7 @@ public class Rotation : MonoBehaviour
     public bool static_center = true;
     public bool right_rotation = true;
     public bool flipping = false;
-    [Range(1f, 180f)] public float speed = 1;
+    [Range(0.1f, 180f)] public float speed = 1;
     [Range(0, (float)Math.PI * 2)] public float flip_angle = 0;
 
     private float angle;
