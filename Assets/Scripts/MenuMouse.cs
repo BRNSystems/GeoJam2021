@@ -16,8 +16,14 @@ public class MenuMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pos.x += Input.GetAxisRaw("Mouse X") * Time.deltaTime * 40f;
-        pos.y += Input.GetAxisRaw("Mouse Y") * Time.deltaTime * 40f;
+        if (Application.platform == RuntimePlatform.WebGLPlayer){
+            pos.x += Input.GetAxisRaw("Mouse X") * Time.deltaTime * 40f;
+            pos.y += Input.GetAxisRaw("Mouse Y") * Time.deltaTime * 40f;
+        }
+        else{
+            pos.x += Input.GetAxisRaw("Mouse X") * Time.deltaTime * 10f;
+            pos.y += Input.GetAxisRaw("Mouse Y") * Time.deltaTime * 10f;
+        }
         pos.z = -8f; 
         if (pos.x > 8.62f){
             pos.x = 8.62f;
