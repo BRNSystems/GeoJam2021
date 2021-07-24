@@ -6834,7 +6834,7 @@ MonoBehaviour:
   bottom: {fileID: 6200000, guid: 2c0538ecede9d3b43867ca45f72ba04b, type: 2}
   controller: {fileID: 685738186}
   sfx: {fileID: 1823422550}
-  runspeed: 60
+  runspeed: 12
 --- !u!212 &685738188
 SpriteRenderer:
   m_ObjectHideFlags: 0

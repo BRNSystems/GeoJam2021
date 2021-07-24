@@ -69,7 +69,7 @@ public class PlayerControls : MonoBehaviour
         
     }
     void FixedUpdate(){
-        controller.Move(horizonatalaxis  * runspeed * 10f * Time.fixedDeltaTime, jumping);
+        controller.Move(horizonatalaxis  * runspeed, jumping);
 
     }
 }

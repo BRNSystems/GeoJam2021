@@ -296,7 +296,7 @@ MonoBehaviour:
   bottom: {fileID: 6200000, guid: 2c0538ecede9d3b43867ca45f72ba04b, type: 2}
   controller: {fileID: 4766648}
   sfx: {fileID: 517709047}
-  runspeed: 60
+  runspeed: 12
 --- !u!212 &4766650
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30739,7 +30739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -44.6, y: -10.98}
+  m_AnchoredPosition: {x: -47.37, y: -12.64}
   m_SizeDelta: {x: 20, y: 4.4791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &381871073
@@ -30762,7 +30762,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You play as this UFO which is trying to get to his house.
+  m_text: 'You play as this UFO which is trying to get to a repair center.
+
+    Only
+    half of his backup engines are working...'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ef325a480290fa14fba489996636a572, type: 2}
   m_sharedMaterial: {fileID: -8345311776861960751, guid: ef325a480290fa14fba489996636a572, type: 2}
@@ -30825,7 +30828,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -5.263632, y: 0, z: -1.4657669, w: -0.66926813}
+  m_margin: {x: -8.30945, y: 0, z: -8.595764, w: 0.71519756}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -37048,7 +37051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43.5, y: -1.26}
+  m_AnchoredPosition: {x: -43.2, y: 1.86}
   m_SizeDelta: {x: 20, y: 4.4791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742189227

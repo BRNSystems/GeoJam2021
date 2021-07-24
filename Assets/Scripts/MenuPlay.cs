@@ -23,7 +23,7 @@ public class MenuPlay : MonoBehaviour
         if(Physics2D.CircleCast(mouse.pos, 1f, Vector2.zero, 0f, contactFilter)){
             if (Input.GetMouseButtonDown(0)){
                 sfx.Play();
-                SceneManager.LoadScene("Tutorial");
+                SceneManager.LoadScene("Intro");
             }
 
             previous_hover = hover;
